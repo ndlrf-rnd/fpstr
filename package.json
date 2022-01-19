@@ -1,0 +1,58 @@
+{
+  "name": "@ndlrf/fpstr",
+  "version": "1.0.1",
+  "description": "Structural FingerPrinting for STRings",
+  "tags": [
+    "analysis",
+    "data",
+    "fingerprints",
+    "format",
+    "patterns",
+    "structure",
+    "symbols",
+    "text"
+  ],
+  "license": "Apache-2.0",
+  "author": {
+    "name": "Ilya Kutukov",
+    "url": "https://github.com/mrjj/",
+    "email": "i@leninka.ru"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ndlrf-rnd/fpstr.git"
+  },
+  "bugs": {
+    "email": "i@leninka.ru"
+  },
+  "entry": {
+    "index": "src/fpstr.js"
+  },
+  "main": "fpstr.js",
+  "module": "fpstr.js",
+  "browser": "src/fpstr.js",
+  "man": "README.md",
+  "dependencies": {},
+  "files": [
+    "src/",
+    "examples/",
+    "!build",
+    "!coverage",
+    "!__coverage__",
+    "!__tests__"
+  ],
+  "devDependencies": {
+    "eslint": "8.7.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-plugin-import": "2.25.3",
+    "eslint-plugin-jest": "25.3.3",
+    "jest": "27.4.5"
+  },
+  "scripts": {
+    "ci": "npm run test ; npm run lint",
+    "lint": "eslint ./*.js",
+    "lint:fix": "eslint --fix  ./*.js",
+    "test": "jest .",
+    "test:coverage": "jest . --coverage"
+  }
+}
