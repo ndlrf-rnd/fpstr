@@ -2,7 +2,7 @@
 
 Structural **F**inger**P**rinting for **STR**ings.
 
-package: `@ndlrf/fpstr`
+package: `fpstr`
 
 ## Installation
 

@@ -1,6 +1,6 @@
 {
-  "name": "@ndlrf/fpstr",
-  "version": "1.0.1",
+  "name": "fpstr",
+  "version": "1.0.2",
   "description": "Structural FingerPrinting for STRings",
   "tags": [
     "analysis",
@@ -26,18 +26,19 @@
     "email": "i@leninka.ru"
   },
   "entry": {
-    "index": "src/fpstr.js"
+    "index": "fpstr.js"
   },
   "main": "fpstr.js",
   "module": "fpstr.js",
-  "browser": "src/fpstr.js",
+  "browser": "fpstr.js",
   "man": "README.md",
   "dependencies": {},
   "files": [
-    "src/",
-    "examples/",
-    "!build",
+    "fpstr.js",
+    "example.js",
     "!coverage",
+    "README.md",
+    "LICENSE",
     "!__coverage__",
     "!__tests__"
   ],
